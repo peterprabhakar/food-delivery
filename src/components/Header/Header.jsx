@@ -42,6 +42,7 @@ const Header = () => {
   };
 
   useEffect(() => {
+    {console.log("Rishabh");}
     window.addEventListener("scroll", () => {
       if (
         document.body.scrollTop > 80 || document.documentElement.scrollTop > 80
